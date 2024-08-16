@@ -25,8 +25,14 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 40vh;
+    padding-top: 20vh;
     text-align: center;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 .section-1 p{
@@ -44,9 +50,21 @@ a{
     font-size: 1.5rem;
     padding: 10px;
 }
+
+.social-icon {
+    display: inline-block;
+    margin: 0 0px;
+}
+
+.thm-icon {
+    width: 24px; /* Adjust to match GitHub icon size */
+    height: 24px; /* Adjust to match GitHub icon size */
+    vertical-align: middle;
+}
+
 /* section 2 */
 .section-2{
-    padding-top: 10vh;
+    padding-top: 8vh;
     width: 70%;
 }
 
@@ -59,6 +77,7 @@ a{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
+    line-height: 1.7;
 }
 
 .section-2 a{
@@ -67,6 +86,7 @@ a{
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
+    line-height: 1.7;
 }
 /* animations / utilities */
 .section-2 a:hover{
